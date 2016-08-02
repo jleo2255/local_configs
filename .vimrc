@@ -40,3 +40,14 @@ filetype plugin indent on    " required
 filetype plugin on
 syntax on
 colorscheme desert
+
+set number
+
+set tabstop=8     
+set shiftwidth=4 
+set autoindent  
+set smartindent
+set cindent   
+
+let g:ycm_server_python_interpreter = '/usr/bin/python3' 
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/ycm/.ycm_extra_conf.py'
