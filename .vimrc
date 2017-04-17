@@ -59,3 +59,7 @@ function QuoteDelim(char)
  return a:char.a:char."\<Esc>i"
  endif
 endf
+
+set noswapfile
+
+nnoremap <Space> i_<Esc>r^
